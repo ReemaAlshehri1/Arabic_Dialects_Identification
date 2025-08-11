@@ -34,7 +34,7 @@ python app.py
 
 ## Results
 
-## 📂 Project Structure
+## Github structure
 
 ## Licesns
 
