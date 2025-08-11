@@ -1,6 +1,6 @@
 # Arabic_Dialects_Identification
 
-in this project i buit a model that can identify which arabic dialect the giving sentence is.
+in this project i bfine-tunes AraBERT model using LoRA to identify which arabic dialect the giving sentence is.
 the model can predict weather the sentence  belongs to these 6 dialects:
 - Eygypt
 - Gulf
