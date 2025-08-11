@@ -1,13 +1,13 @@
 # Arabic_Dialects_Identification
 
-In this project i bfine-tunes AraBERT model using LoRA to identify which arabic dialect the giving sentence is.
-The model can predict weather the sentence  belongs to these 6 dialects:
-- Eygypt
-- Gulf
-- Magreb
-- Levant
-- Msa
-- Sudan
+- In this project i bfine-tunes AraBERT model using LoRA to identify which arabic dialect the giving sentence is.
+- The model can predict weather the sentence  belongs to these 6 dialects:
+ - Eygypt
+ - Gulf
+ - Magreb
+ - Levant
+ - Msa
+ - Sudan
 
 ## Features
 - Fine-tuning AraBERT  model
@@ -18,10 +18,10 @@ The model can predict weather the sentence  belongs to these 6 dialects:
   
 ## Dataset
 For this project i used 3 Datasets from Kaggle to resolve classes imbalance
-- [Arabic_dialect] (https://www.kaggle.com/datasets/waelshaher/arabic-dialect)
-- d
+- [Arabic_dialect](https://www.kaggle.com/datasets/waelshaher/arabic-dialect)
+- [ArSarcasm](https://www.kaggle.com/datasets/hosammohammed/arabic-dataset)
+- [BERT_Arabic_Dialect](https://www.kaggle.com/datasets/hanahelaly/bert-arabic-dialect)
 
-  
 **Preprocessing steps:**
 - Applied a function for text cleaning .
 - Used AraBERT preprocessing for normalization.
@@ -36,13 +36,15 @@ For this project i used 3 Datasets from Kaggle to resolve classes imbalance
    ```bash
    pip install -r requirements.txt
 3. Open and run `Arabic_dialects_detection.ipynb` in Google Colab or Jupyter Notebook:
-   - This will preprocess the dataset, fine-tune the AraBERT model with LoRA, and save the model weights.
+ - This will preprocess the dataset, fine-tune the AraBERT model with LoRA, and save the model weights.
 4. Run the app.py:
    ```bash
    python app.py.py
- - This will start a **Gradio** interface for live predictions.
+ - This will start a Gradio interface for live predictions.
+   
 ## Results
-
+- The accuracy of the model showed 81%
+  
 ## Github structure
 - `Arabic_dialects_detection.ipynb` – Main notebook for training and evaluation
 - `app.py` – Gradio interface for live predictions
