@@ -1,8 +1,7 @@
 # Arabic_Dialects_Identification
->description
-During this project i buit a model to identify which arabic dialect the giving sentence is.
 
-the model can predict 6 dialects:
+in this project i buit a model that can identify which arabic dialect the giving sentence is.
+the model can predict weather the sentence  belongs to these 6 dialects:
 -Eygypt
 -Gulf
 -Magreb
@@ -11,15 +10,15 @@ the model can predict 6 dialects:
 -Sudan
 
 ## Features
-- using AraBert model
-- fine-tuning with LoRA technique
-- using 3 datasets 
+- Fine-tuning AraBERT  model
+- Using LoRA technique
+- Using 3 datasets 
 - Built with Gradio interface
-- 
-## Dataset
-For this project i used 3 Datasets from Kaggle
-1-https://www.kaggle.com/datasets/waelshaher/arabic-dialect
 
+  
+## Dataset
+For this project i used 3 Datasets from Kaggle to resolve classes imbalance
+1-Arabic Dialect dataset (https://www.kaggle.com/datasets/waelshaher/arabic-dialect)
 2-
 3-
 >Preprocessing details
