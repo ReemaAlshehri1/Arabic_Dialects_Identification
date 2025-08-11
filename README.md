@@ -20,10 +20,12 @@ the model can predict weather the sentence  belongs to these 6 dialects:
 For this project i used 3 Datasets from Kaggle to resolve classes imbalance
 - [Arabic_dialect] (https://www.kaggle.com/datasets/waelshaher/arabic-dialect)
 - d
-- 
 
+  
+**Preprocessing steps:**
+- Applied a function for text cleaning .
+- Used AraBERT preprocessing for normalization.
 
->Preprocessing details
 
 ## How to run
 ``bash
