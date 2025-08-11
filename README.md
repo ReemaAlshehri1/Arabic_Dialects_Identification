@@ -18,7 +18,7 @@ the model can predict weather the sentence  belongs to these 6 dialects:
   
 ## Dataset
 For this project i used 3 Datasets from Kaggle to resolve classes imbalance
-- Arabic Dialect dataset (https://www.kaggle.com/datasets/waelshaher/arabic-dialect)
+- [Arabic_dialect] (https://www.kaggle.com/datasets/waelshaher/arabic-dialect)
 - d
 - 
 
