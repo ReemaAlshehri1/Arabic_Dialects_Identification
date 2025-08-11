@@ -28,11 +28,19 @@ For this project i used 3 Datasets from Kaggle to resolve classes imbalance
 
 
 ## How to run
-``bash
-git clone https://github.com/ReemaAlshehri1/arabic-dialect-identification.git
-cd arabic-dialect-identification
-pip install -r requirements.txt
-python app.py
+1. clone the repository:
+   ```bash
+   git clone https://github.com/ReemaAlshehri1/arabic-dialect-identification.git
+   cd arabic-dialect-identification
+2. Install required dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Open and run `Arabic_dialects_detection.ipynb` in Google Colab or Jupyter Notebook:
+   This will preprocess the dataset, fine-tune the AraBERT model with LoRA, and save the model weights.
+4. Run the app.py
+   ```bash
+   python app.py.py
+
 
 
 ## Results
