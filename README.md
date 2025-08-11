@@ -36,6 +36,11 @@ python app.py
 ## Results
 
 ## Github structure
+- `Arabic_dialects_detection.ipynb` – Main notebook for training and evaluation
+- `app.py` – Gradio interface for live predictions
+- `requirements.txt` – Required dependencies
+- `arabert-dialect-lora/` – Fine-tuned model weights (or Hugging Face model link)
+- `README.md` – Project documentation
 
 ## Licesns
 
