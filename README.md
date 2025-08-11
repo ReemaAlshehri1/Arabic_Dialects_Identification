@@ -36,13 +36,11 @@ For this project i used 3 Datasets from Kaggle to resolve classes imbalance
    ```bash
    pip install -r requirements.txt
 3. Open and run `Arabic_dialects_detection.ipynb` in Google Colab or Jupyter Notebook:
-   This will preprocess the dataset, fine-tune the AraBERT model with LoRA, and save the model weights.
-4. Run the app.py
+   - This will preprocess the dataset, fine-tune the AraBERT model with LoRA, and save the model weights.
+4. Run the app.py:
    ```bash
    python app.py.py
-
-
-
+ - This will start a **Gradio** interface for live predictions.
 ## Results
 
 ## Github structure
