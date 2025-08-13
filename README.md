@@ -1,7 +1,7 @@
 # Arabic_Dialects_Identification
 
 - In this project i fine-tuned AraBERT model using LoRA to identify which arabic dialect the giving sentence is.
-- ![Interface Screenshot](images/gradio_interface.png)
+- ![Interface Screenshot](images/interface.png)
 - The model can predict wheather the sentence belongs to these 6 dialects:
  - Eygpt
  - Gulf
@@ -37,10 +37,10 @@ For this project i used 3 Datasets from Kaggle to resolve classes imbalance
    ```bash
    pip install -r requirements.txt
 3. Download the datasets from the Kaggle links above.
-   - If running in Google Colab, you can download them directly in the notebook by adding your own Kaggle API credentials and adjusting the dataset paths in the cells.  
-   - If running locally, download the datasets manually and update the dataset paths in `Arabic_dialects_detection.ipynb` .
+ - If running in Google Colab, you can download them directly in the notebook by adding your own Kaggle API credentials and adjusting the dataset paths in the cells.  
+ - If running locally, download the datasets manually and update the dataset paths in `Arabic_dialects_detection.ipynb` .
 4. Open and run `Arabic_dialects_detection.ipynb` in Google Colab or Jupyter Notebook:
-   - This will preprocess the dataset, fine-tune the AraBERT model with LoRA, and save the model weights.
+ - This will preprocess the dataset, fine-tune the AraBERT model with LoRA, and save the model weights.
 5. Run the app.py:
    ```bash
    python app.py
@@ -48,7 +48,7 @@ For this project i used 3 Datasets from Kaggle to resolve classes imbalance
    
 ## Results
 - The accuracy of the model showed 81%
-  
+![Accuracy Screenshot](images/Accuracy.png)
 ## Github structure
 - `Arabic_dialects_detection.ipynb` – Main notebook for training and evaluation
 - `app.py` – Gradio interface for live predictions
