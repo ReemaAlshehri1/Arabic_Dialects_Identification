@@ -4,7 +4,6 @@
 - <p align="center">
   <img src="images/interface.png" alt="Gradio Interface" width="600">
 </p>
-- 
 - The model can predict wheather the sentence belongs to these 6 dialects:
  - Eygpt
  - Gulf
