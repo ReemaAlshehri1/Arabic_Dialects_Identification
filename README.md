@@ -4,7 +4,7 @@
 - <p align="center">
   <img src="images/interface.png" alt="Gradio Interface" width="600">
 </p>
-- ![Interface Screenshot](images/interface.png)
+- 
 - The model can predict wheather the sentence belongs to these 6 dialects:
  - Eygpt
  - Gulf
@@ -51,7 +51,9 @@ For this project i used 3 Datasets from Kaggle to resolve classes imbalance
    
 ## Results
 - The accuracy of the model showed 81%
-![Accuracy Screenshot](images/Accuracy.png)
+<p align="center">
+  <img src="images/Accuracy.png" alt="Gradio Interface" width="600">
+</p>
 ## Github structure
 - `Arabic_dialects_detection.ipynb` – Main notebook for training and evaluation
 - `app.py` – Gradio interface for live predictions
