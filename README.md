@@ -6,12 +6,12 @@
 </p>
 
 - The model can predict wheather the sentence belongs to one of the following 6 dialects:
- - Eygpt
- - Gulf
- - Maghreb
- - Levant
- - Msa
- - Sudan
+  - Eygpt
+  - Gulf
+  - Maghreb
+  - Levant
+  - Msa
+  - Sudan
 
 ## Features
 - Fine-tuning AraBERT  model
