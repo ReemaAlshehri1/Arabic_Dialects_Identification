@@ -54,6 +54,7 @@ To address class imbalance, 3 Kaggle datasets were combined:
   <img src="images/Accuracy.png" alt="Gradio Interface" width="600">
 </p>
 ## Github structure
+
 - `Arabic_dialects_detection.ipynb` – Main notebook for training and evaluation
 - `app.py` – Gradio interface for live predictions
 - `requirements.txt` – Required dependencies
