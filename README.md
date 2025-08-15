@@ -1,6 +1,9 @@
 # Arabic_Dialects_Identification
 
 - In this project i fine-tuned AraBERT model using LoRA to identify which arabic dialect the giving sentence is.
+- <p align="center">
+  <img src="images/interface.png" alt="Gradio Interface" width="600">
+</p>
 - ![Interface Screenshot](images/interface.png)
 - The model can predict wheather the sentence belongs to these 6 dialects:
  - Eygpt
