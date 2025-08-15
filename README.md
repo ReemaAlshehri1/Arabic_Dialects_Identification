@@ -41,7 +41,7 @@ To address class imbalance, 3 Kaggle datasets were combined:
 3. Download the datasets from the Kaggle links above.
  - If running in Google Colab, you can download them directly in the notebook by adding your own Kaggle API credentials and adjusting the dataset paths in the cells.  
  - If running locally, download the datasets manually and update the dataset paths in `Arabic_dialects_detection.ipynb` .
-4. Open and run `Arabic_dialects_detection.ipynb` [Open in Google Colab](https://colab.research.google.com/drive/1Ar_lheBBU_591L35Thlk7uXbaArexqEv?usp=sharing):
+4. Open and run `Arabic_dialects_detection.ipynb` [Open in Google Colab](https://colab.research.google.com/drive/1KHBzA0wFGzChpeecoelcJ3QByeQy9Yxd?usp=sharing):
  - This will preprocess the dataset, fine-tune the AraBERT model with LoRA, and save the model weights.
 5. Run the app.py:
    ```bash
