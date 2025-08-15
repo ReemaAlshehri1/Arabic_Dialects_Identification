@@ -4,7 +4,7 @@
 - <p align="center">
   <img src="images/interface.png" alt="Gradio Interface" width="600">
 </p>
-- The model can predict wheather the sentence belongs to these 6 dialects:
+- The model can predict wheather the sentence belongs to one of the following 6 dialects:
  - Eygpt
  - Gulf
  - Maghreb
@@ -20,7 +20,7 @@
 
   
 ## Dataset
-For this project i used 3 Datasets from Kaggle to resolve classes imbalance
+To address class imbalance, 3 Kaggle datasets were combined:
 - [ArSarcasm](https://www.kaggle.com/datasets/hosammohammed/arabic-dataset)
 - [BERT_Arabic_Dialect](https://www.kaggle.com/datasets/hanahelaly/bert-arabic-dialect)
 - [Arabic_dialect](https://www.kaggle.com/datasets/waelshaher/arabic-dialect)
@@ -61,4 +61,4 @@ For this project i used 3 Datasets from Kaggle to resolve classes imbalance
 - `README.md` – Project documentation
 
 ## License
-
+- this project is licensed under the MIT License 
