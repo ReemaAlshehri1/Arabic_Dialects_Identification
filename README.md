@@ -61,4 +61,6 @@ To address class imbalance, 3 Kaggle datasets were combined:
 - `README.md` – Project documentation
 
 ## License
-- this project is licensed under the MIT License 
+
+- This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+
